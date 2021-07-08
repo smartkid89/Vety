@@ -5,6 +5,8 @@
 */
 // Highlights current date on contact page
 window.addEventListener('DOMContentLoaded', event => {
+    $('.alert').alert()
+
     const listHoursArray = document.body.querySelectorAll('.list-hours li');
     listHoursArray[new Date().getDay()].classList.add(('today'));
 })
