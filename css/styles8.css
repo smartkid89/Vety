@@ -635,6 +635,18 @@ progress {
     max-width: 1320px;
   }
 }
+.row1{
+  --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 1.5rem;
+    display: flex;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+  
+}
 .row {
   --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 1.5rem;
