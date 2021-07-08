@@ -25,7 +25,7 @@
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-primary: #e6a756;
-  --bs-secondary: #2F170F;
+  --bs-secondary: #0f2b2f;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -2994,8 +2994,8 @@ textarea.form-control-lg {
 
 .btn-secondary {
   color: #fff;
-  background-color: #2F170F;
-  border-color: #2F170F;
+  background-color: #0f2b2f;
+  border-color: #0f2b2f;
 }
 .btn-secondary:hover {
   color: #fff;
@@ -3018,8 +3018,8 @@ textarea.form-control-lg {
 }
 .btn-secondary:disabled, .btn-secondary.disabled {
   color: #fff;
-  background-color: #2F170F;
-  border-color: #2F170F;
+  background-color: #0f2b2f;
+  border-color: #0f2b2f;
 }
 
 .btn-success {
@@ -3228,27 +3228,27 @@ textarea.form-control-lg {
 }
 
 .btn-outline-secondary {
-  color: #2F170F;
-  border-color: #2F170F;
+  color: #0f2b2f;
+  border-color: #0f2b2f;
 }
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #2F170F;
-  border-color: #2F170F;
+  background-color: #0f2b2f;
+  border-color: #0f2b2f;
 }
 .btn-check:focus + .btn-outline-secondary, .btn-outline-secondary:focus {
-  box-shadow: 0 0 0 0.25rem rgba(47, 23, 15, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(15, 47, 45, 0.5);
 }
 .btn-check:checked + .btn-outline-secondary, .btn-check:active + .btn-outline-secondary, .btn-outline-secondary:active, .btn-outline-secondary.active, .btn-outline-secondary.dropdown-toggle.show {
   color: #fff;
-  background-color: #2F170F;
-  border-color: #2F170F;
+  background-color: #0f2b2f;
+  border-color: #0f2b2f;
 }
 .btn-check:checked + .btn-outline-secondary:focus, .btn-check:active + .btn-outline-secondary:focus, .btn-outline-secondary:active:focus, .btn-outline-secondary.active:focus, .btn-outline-secondary.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(47, 23, 15, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(15, 41, 47, 0.5);
 }
 .btn-outline-secondary:disabled, .btn-outline-secondary.disabled {
-  color: #2F170F;
+  color: #0f2b2f;
   background-color: transparent;
 }
 
@@ -6126,7 +6126,7 @@ textarea.form-control-lg {
 }
 
 .link-secondary {
-  color: #2F170F;
+  color: #0f2b2f;
 }
 .link-secondary:hover, .link-secondary:focus {
   color: #26120c;
@@ -6526,7 +6526,7 @@ textarea.form-control-lg {
 }
 
 .border-secondary {
-  border-color: #2F170F !important;
+  border-color: #0f2b2f !important;
 }
 
 .border-success {
@@ -7411,7 +7411,7 @@ textarea.form-control-lg {
 }
 
 .bg-secondary {
-  background-color: #2F170F !important;
+  background-color: #0f2b2f !important;
 }
 
 .bg-success {
