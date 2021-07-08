@@ -44,23 +44,23 @@
             <div class="container">
                 <style> 
                 .row1 {
-  --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 1.5rem;
+                    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: rem;
     display: flex;
     margin-top: calc(var(--bs-gutter-y) * -1);
     margin-right: calc(var(--bs-gutter-x) * -.5);
     margin-left: calc(var(--bs-gutter-x) * -.5);
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-content: center;
-    flex-wrap: nowrap;
   
 }
                 </style>
                 <div class="row1">
-                    <div class="col-sm">
+                    <div class="row1 col-sm">
                       <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
-                    <div class="col-sm">
+                    <div class="row1 col-sm">
                       <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
                     </div>
                     
@@ -68,14 +68,14 @@
 <br>
 
 <div>
-                  <button type="button" class="btn btn-primary btn-lg btn-block">Login</button>
+                  <button type="button" class="row1 btn btn-primary btn-lg btn-block">Login</button>
                 </div>
 <br>
-                  <div>
+                  <div class="row1">
                     <a href="ForgotPassword.html">Did you forget the password ?</a>
                     </div>
                     <br>
-                    <div>
+                    <div class="row1">
                         <a href="signup.html"><button type="button"  class="btn btn-success ">Sign up</button></a>
                       </div>
             </div>
