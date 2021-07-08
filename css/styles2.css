@@ -208,11 +208,11 @@ sup {
 }
 
 a {
-  color: #56d0e6;
-  text-decoration: underline;
+  color: #000000;
+  
 }
 a:hover {
-  color: #b88645;
+  color: #45b8b8;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -10904,7 +10904,7 @@ p {
 }
 
 .bg-faded {
-  background-color: #f6e1c5;
+  background-color: #c5f0f6;
 }
 
 .btn-xl {
