@@ -644,7 +644,7 @@ progress {
   margin-right: calc(var(--bs-gutter-x) * -.5);
   margin-left: calc(var(--bs-gutter-x) * -.5);
   flex-direction: column;
-  align-content: center;
+  
 }
 .row > * {
   flex-shrink: 0;
