@@ -43,22 +43,22 @@
         <style>
           .row2{
             --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: rem;
+    --bs-gutter-y: 1.5rem;
     display: flex;
     margin-top: calc(var(--bs-gutter-y) * -1);
     margin-right: calc(var(--bs-gutter-x) * -.5);
     margin-left: calc(var(--bs-gutter-x) * -.5);
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
     align-content: center;
-  
+    flex-wrap: nowrap;
+    justify-content: center;
           }
         </style>
 
 
 
 <section>
-  <div class="row">
+  <div class="row2">
   <div class="card" style="width: 18rem;">
     <!-- card one-->
     <div class="card-body">
@@ -67,6 +67,7 @@
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
+  <br>
     <!-- card two-->
 
   <div class="card" style="width: 18rem;">
@@ -76,6 +77,7 @@
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
+  <br>
       <!-- card card three-->
       <div class="card" style="width: 18rem;">
         <div class="card-body">
